@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_margin="37dp"
+    app:cardCornerRadius="40dp"
+    android:id="@+id/itemRCV">
+
+    <RelativeLayout
+        android:background="#ffa64d"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="1dp"
+        >
+
+        <ImageView
+            android:id="@+id/images"
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:layout_margin="8dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginRight="8dp"
+            android:src="@drawable/emthree" />
+
+<!--        <TextView-->
+<!--            android:id="@+id/UserName"-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:layout_toRightOf="@+id/avatar"-->
+<!--            android:text="Tên: "-->
+<!--            android:textColor="@color/minhdao2"-->
+<!--            android:textStyle="bold"-->
+<!--            android:textSize="20sp" />-->
+        <TextView
+            android:id="@+id/tvNameProduct"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/images"
+            android:text="Ho va ten"
+            android:textColor="@color/minhdao2"
+            android:textSize="30dp"
+            android:textAlignment="center"
+            android:textStyle="bold"/>
+
+
+<!--        <TextView-->
+<!--            android:id="@+id/SDT"-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:layout_below="@+id/txtUserName"-->
+<!--            android:layout_toRightOf="@id/avatar"-->
+<!--            android:text="SDT: "-->
+<!--            android:textStyle="bold"-->
+<!--            android:textColor="@color/minhdao2"-->
+<!--            android:textSize="20sp" />-->
+        <TextView
+            android:id="@+id/tvPrice"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/tvNameProduct"
+            android:text="SDT"
+            android:textColor="@color/minhdao2"
+            android:textSize="30dp"
+            android:textAlignment="center"
+            android:layout_margin="10dp"/>
+
+<!--        <ImageView-->
+<!--            android:id="@+id/del"-->
+<!--            android:layout_width="70dp"-->
+<!--            android:layout_height="70dp"-->
+<!--            android:layout_alignParentRight="true"-->
+<!--            android:src="@drawable/ic_close" />-->
+    </RelativeLayout>
+
+</androidx.cardview.widget.CardView>

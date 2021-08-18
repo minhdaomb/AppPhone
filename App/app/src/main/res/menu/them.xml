@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/otp_2"
+        app:showAsAction="always"
+        android:icon="@drawable/add"
+        android:title="Thêm sản phẩm"/>
+    <item
+        android:id="@+id/otp_3"
+        app:showAsAction="always"
+        android:icon="@drawable/ic_cart"
+        android:title="Thêm sản phẩm"/>
+    <item
+        android:id="@+id/otp_4"
+        app:showAsAction="always"
+        android:title="Category"/>
+
+</menu>

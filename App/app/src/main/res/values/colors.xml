@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="purple_200">#FFBB86FC</color>
+    <color name="purple_500">#FF6200EE</color>
+    <color name="purple_700">#FF3700B3</color>
+    <color name="teal_200">#FF03DAC5</color>
+    <color name="teal_700">#FF018786</color>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="primary_color">#0F69F2</color>
+    <color name="white_color">#fff</color>
+    <color name="colorPrimary">#0F69F2</color>
+    <color name="minhdao2">#FFFFFF</color>
+    <color name="minhdao">#7B68EE</color>
+
+    <color name="colorPrimaryDark">#0040be</color>
+    <color name="colorAccent">#03DAC5</color>
+
+
+    <!--    MY COLOR-->
+
+
+    <color name="greyLight">#90a4ae</color>
+    <color name="greyDark">#3c415e</color>
+
+    <!--blue color-->
+    <color name="bluePrimary_color">#0F69F2</color>
+    <color name="blueLight_color">#e1f5fe</color>
+
+    <!--red color-->
+    <color name="redPrimary_color">#ff1744</color>
+    <color name="redLight_color">#ffebee</color>
+
+    <!--purple color-->
+    <color name="purplePrimary_color">#d500f9</color>
+    <color name="purpleLight_color">#f3e5f5</color>
+</resources>

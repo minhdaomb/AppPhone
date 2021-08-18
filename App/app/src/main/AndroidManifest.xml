@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.androidnetworking">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.AndroidNetWorking"
+        android:usesCleartextTraffic="true">
+
+
+        <meta-data
+            android:name="com.google.firebase.messaging.default_notification_icon"
+            android:resource="@drawable/facebook" />
+        <!--
+ Set color used with incoming notification messages. This is used when no color is set for the incoming
+             notification message. See README(https://goo.gl/6BKBk7) for more.
+        -->
+        <meta-data
+            android:name="com.google.firebase.messaging.default_notification_color"
+            android:resource="@color/colorAccent" />
+        <meta-data
+            android:name="com.google.firebase.messaging.default_notification_channel_id"
+            android:value="fcm" />
+        <meta-data
+            android:name="firebase_messaging_auto_init_enabled"
+            android:value="false" />
+        <meta-data
+            android:name="firebase_analytics_collection_enabled"
+            android:value="false" />
+
+        <service
+            android:name=".lab8.service.service.MyFirebaseNitificationService"
+            android:exported="false">
+            <intent-filter>
+                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+            </intent-filter>
+        </service>
+
+
+
+        <activity android:name=".Thi.BookActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".ASM.category.View_Category">
+
+        </activity>
+        <activity android:name=".ASM.category.CategoryActivity"></activity>
+        <activity android:name=".lab8.service.FCMActivity">
+
+        </activity>
+        <activity android:name=".lab7.lab7Activity" >
+
+        </activity>
+        <activity android:name=".ASM.Update.InsertProductActivity" />
+        <activity android:name=".ASM.ProductActivity" />
+        <activity android:name=".ASM.QuenMKActivity" />
+        <activity android:name=".lab4.testActivity" />
+        <activity android:name=".lab3.lab3bai2Activity" />
+        <activity android:name=".ASM.SigUpActivity" />
+        <activity android:name=".ASM.LoginActivity">
+
+        </activity>
+        <activity android:name=".lab2.Activity.MainActivity" />
+        <activity android:name=".lap1.bau2_2" />
+        <activity android:name=".lap1.bai2_1" />
+        <activity android:name=".lap1.bai1" />
+        <activity android:name=".MainActivity" />
+        <activity android:name=".lab2.Activity.bai2Activity" />
+        <activity android:name=".lab2.Activity.bai3Activity" />
+        <activity android:name=".lab2.Activity.bai4Activity" />
+        <activity android:name=".lab3.bai1_lab3_Activity" />
+        <activity android:name=".ASM.ProductActivity2" />
+        <activity android:name=".ASM.Loai.LaptopActivity" />
+        <activity android:name=".ASM.Loai.MobileActivity" />
+        <activity android:name=".ASM.Loai.DesktopActivity" />
+        <activity android:name=".ASM.Loai.AccessoriesActivity" />
+        <activity android:name=".ASM.Loai.TabletActivity" />
+        <activity android:name=".ASM.Cart.CartActivity2" />
+    </application>
+
+</manifest>

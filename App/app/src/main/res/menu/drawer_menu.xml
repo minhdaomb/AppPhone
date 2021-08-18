@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+<!--    xmls:tools="http://schemas.android.com/tools"-->
+<!--    tools:showIn="navigation_view">-->
+    <group android:checkableBehavior="single">
+        <item android:id="@+id/nav1"
+            android:title="Trang Chủ"/>
+        <item android:id="@+id/nav"
+            android:title="Laptop"/>
+        <item android:id="@+id/nav_trangchu"
+            android:title="Mobile" />
+        <item android:id="@+id/nav_nike"
+            android:title="Desktop" />
+        <item android:id="@+id/nav_converse"
+            android:title="Accessories"/>
+        <item android:id="@+id/nav_adidas"
+            android:title="Tablet"/>
+
+    </group>
+<!--    <item android:title="Communicate">-->
+<!--        <menu>-->
+<!--            <item android:id="@+id/nav_gioithieu"-->
+<!--                android:title="Giới Thiệu"/>-->
+<!--            <item android:id="@+id/nav_caidat"-->
+<!--                android:title="Càn Đặt"/>-->
+<!--            <item android:id="@+id/nav_thoat"-->
+<!--                android:icon="@drawable/ic_send"-->
+<!--                android:title="Thoát"/>-->
+<!--        </menu>-->
+<!--    </item>-->
+</menu>
